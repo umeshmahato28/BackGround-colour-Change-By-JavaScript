@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BgChange</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <h1>Click to change the background color</h1>
+    </div>
+    
+        <span class="button" id="grey"></span>
+        <span class="button" id="white"></span>
+        <span class="button" id="black"></span>
+        <span class="button" id="green"></span>
+        <span class="button" id="yellow"></span>
+        <span class="button" id="blue"></span>
+
+
+    <!-- <script src="bgchange.js"></script> -->
+   <script>
+
+    document.getElementById('grey').addEventListener("click",function(e){
+        document.body.style.backgroundColor=e.target.id;
+    })
+
+    document.getElementById('white').addEventListener("click",function(e){
+        document.body.style.backgroundColor=e.target.id;
+    })
+
+    document.getElementById('black').addEventListener("click",function(e){
+        document.body.style.backgroundColor=e.target.id;
+    })
+
+    document.getElementById('green').addEventListener("click",function(e){
+        document.body.style.backgroundColor=e.target.id;
+    })
+
+    document.getElementById('yellow').addEventListener("click",function(e){
+        document.body.style.backgroundColor=e.target.id;
+    })
+
+    document.getElementById('blue').addEventListener("click",function(e){
+        document.body.style.backgroundColor=e.target.id;
+    })
+
+
+   </script>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="style.css"/>
+      <link rel="stylesheet" href="../style.css"/>
+      <title>Theme Changer by JS</title>
+</head>
+<body >
+      <div class="canvas"  >
+            <h1>Colour Switcher</h1>
+            <span class="button" id="grey"></span>
+            <span class="button" id="white"></span>
+            <span class="button" id="black"></span>
+            <span class="button" id="green"></span>
+            <span class="button" id="yellow"></span>
+            <h2>
+                  Click to Change Background
+            </h2>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html> -->
