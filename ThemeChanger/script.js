@@ -9,7 +9,7 @@ buttons.forEach(function(button){
             if(e.target ==='grey'){
                   body.style.backgroundColor = e.target.dispatchEvent;
             }
-      
+       
             if(e.target==='white'){
                   body.style.backgroundColor = e.target.dispatchEvent;
             }
